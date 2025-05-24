@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="m-0 p-0 overflow-hidden" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost hunt game</title>
+
+    <!-- External Libraries -->
+    <script src="//codepen.io/steveg3003/pen/zBVakw.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.0.1/Rx.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="" />
+  </head>
+
+  <body class="min-h-screen grid grid-cols-1 grid-rows-1 m-0 p-0 overflow-hidden">
+    <!-- Main Game Container -->
+    <div
+      id="container"
+      class="relative bg-no-repeat bg-cover flex justify-center items-center text-white min-h-screen min-w-full"
+      style="background-image: url('Graveyard.png')"
+    >
+      <!-- (Game UI) -->
+      <svg class="z-10 backface-visible" id="svg"></svg>
+
+      <!-- My name -->
+      <div class="absolute bottom-5 left-4 z-20">
+        <h1 class="text-sm sm:text-base md:text-lg lg:text-xl">Made by Prinshu</h1>
+        
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
